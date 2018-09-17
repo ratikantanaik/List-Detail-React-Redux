@@ -4,6 +4,7 @@ import companyReducer from './reducers/companyReducer';
 import userReducer from './reducers/userReducer';
 import thunk from 'redux-thunk';
 
+// Reducers
 const allReducers = combineReducers({
     employeeList: empReducer,
     company: companyReducer,
